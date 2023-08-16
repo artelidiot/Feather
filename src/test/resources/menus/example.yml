@@ -1,0 +1,12 @@
+# TODO: GUI builder.
+
+title: "Example GUI"
+# Valid amounts are 1-6. Each row is composed of 9 slots.
+rows: 1
+
+contents:
+  - 'filler':
+    material: "minecraft:black_stained_glass"
+    name: " "
+    # Using '-1' as the slot will place it in every empty slot. This can only be defined once.
+    slot: -1

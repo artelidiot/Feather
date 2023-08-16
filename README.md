@@ -11,7 +11,7 @@ We would love to hear any and all feedback you have as we are constantly trying 
 <sup>1</sup> _If you are contributing code, please ensure it follows the [Google code practices](https://google.github.io/styleguide/javaguide.html) and the GNU GPLv3 license._
 
 ### License
-> Copyright (C) 2022 Artel
+> Copyright (C) 2022-2023 Artel
 >
 > This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public
 > License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later

@@ -4,7 +4,7 @@
 
     <groupId>me.artel</groupId>
     <artifactId>feather</artifactId>
-    <version>0.0.10-alpha</version>
+    <version>0.0.11-alpha</version>
 
     <name>Feather</name>
     <description>A development library for SpigotMC and PaperMC plugins.</description>
@@ -18,13 +18,17 @@
         <minedown.version>1.7.1-SNAPSHOT</minedown.version>
 
         <!-- Check for updates here: https://bstats.org/getting-started/include-metrics -->
-        <bstats.version>3.0.1</bstats.version>
+        <bstats.version>3.0.2</bstats.version>
     </properties>
 
     <repositories>
         <repository>
             <id>codemc.io</id>
             <url>https://repo.codemc.io/repository/nms/</url>
+        </repository>
+        <repository>
+            <id>papermc.io</id>
+            <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
         <repository>
             <id>minebench.de</id>
@@ -34,11 +38,19 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.19-R0.1-SNAPSHOT</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>io.papermc.paper</groupId>
+            <artifactId>paper-api</artifactId>
+            <version>1.20-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- TODO: Switch to the Adventure MineDown library -->
         <dependency>
             <groupId>de.themoep</groupId>
             <artifactId>minedown</artifactId>
@@ -48,13 +60,6 @@
             <groupId>org.bstats</groupId>
             <artifactId>bstats-bukkit</artifactId>
             <version>${bstats.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.26</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 

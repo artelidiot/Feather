@@ -63,8 +63,8 @@ public class Messenger {
     public static String parseAllColors(String input) {
         String processed = input;
 
-        processed = parseLegacyColors(processed);
         processed = parseHexColors(processed);
+        processed = parseLegacyColors(processed);
 
         return processed;
     }
@@ -94,9 +94,12 @@ public class Messenger {
         while (matcher.find()) {
             String group = matcher.group(1);
             matcher.appendReplacement(builder, COLOR_CHAR + "x"
-                    + COLOR_CHAR + group.charAt(0) + COLOR_CHAR + group.charAt(1)
-                    + COLOR_CHAR + group.charAt(2) + COLOR_CHAR + group.charAt(3)
-                    + COLOR_CHAR + group.charAt(4) + COLOR_CHAR + group.charAt(5));
+                    + COLOR_CHAR + group.charAt(0)
+                    + COLOR_CHAR + group.charAt(1)
+                    + COLOR_CHAR + group.charAt(2)
+                    + COLOR_CHAR + group.charAt(3)
+                    + COLOR_CHAR + group.charAt(4)
+                    + COLOR_CHAR + group.charAt(5));
         }
 
         return matcher.appendTail(builder).toString();
