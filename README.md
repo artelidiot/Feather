@@ -1,14 +1,14 @@
 # Feather
 
 ### Description
-Feather is a development library for [SpigotMC](https://www.spigotmc.org/) and [PaperMC](https://papermc.io/) plugins.
+Feather is a development library for [PaperMC](https://papermc.io/) plugins.
 Its primary intention is to reduce boilerplate code and ship with commonly used and sought after utility methods, while still maintaining a lightweight footprint.
 
 ### Contributing
 If you wish to contribute to Feather, by all means, please make a pull request<sup>1</sup> or issue!
 We would love to hear any and all feedback you have as we are constantly trying to expand upon Feather.
 
-<sup>1</sup> _If you are contributing code, please ensure it follows the [Google code practices](https://google.github.io/styleguide/javaguide.html) and the GNU GPLv3 license._
+<sup>1</sup> _If you are contributing code, please ensure it follows the [Google code practices](https://google.github.io/styleguide/javaguide.html) and [our license](LICENSE.md)._
 
 ### License
 > Copyright (C) 2022-2023 Artel

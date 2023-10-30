@@ -7,6 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
 
+// TODO: Create "FileBuilder" supporting various formats such as YAML, JSON, TOML, etc.
 public class YAMLFile {
     @Getter
     private static YAMLFile instance;

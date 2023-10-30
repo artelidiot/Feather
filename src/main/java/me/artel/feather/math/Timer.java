@@ -11,7 +11,7 @@ public class Timer {
     private final long start;
 
     /**
-     * Start a new timer from the current system time
+     * Start a new timer from the current system nano time
      *
      * @param unit - The time unit to receive the result in
      */

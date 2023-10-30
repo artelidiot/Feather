@@ -1,6 +1,6 @@
 package me.artel.feather.server;
 
-public class VersionChecker {
+public class CompatUtils {
 
     // TODO
 
